@@ -12,6 +12,9 @@
 #import "UIButton+Spotlight.h"
 #import "UILabel+Spotlight.h"
 
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+
+
 @interface ViewController ()<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *ivPhotoPreview;
 @property (weak, nonatomic) IBOutlet UIButton *btChoosePhoto;
@@ -45,10 +48,16 @@
 //        option.patchBackgroundSnapshot = YES;
         [self.btBack lightingWithOption:option backgroundView:self.ivPhotoPreview];
         
-        SpotlightOption* opt = [SpotlightOption new];
-        opt.lightColor = [UIColor yellowColor];// 默认为白色
-        opt.darkColor = [UIColor purpleColor];// 默认为黑色
-        
+        LabelSpotlightOption* opt = [LabelSpotlightOption new];
+        opt.enhancedBackground = YES;// 默认 NO
+        CGRect r = self.label.frame;
+        r.origin.x = 0;
+        r.origin.y += -10;
+        r.size.width = SCREEN_WIDTH;
+        r.size.height += 20;
+        opt.enhancedBackgroundRect = r;
+        opt.enhancedBackgroundAlpha = 0.5;
+        opt.blendEnhancedBackground = YES;// 默认 NO
         [self.label lightingWithOption:opt backgroundView:self.ivPhotoPreview];
         
     }

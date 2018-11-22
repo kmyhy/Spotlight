@@ -29,6 +29,7 @@
 		12C2846A21A69B48007A12E6 /* UIButton+Spotlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2845A21A69B48007A12E6 /* UIButton+Spotlight.m */; };
 		12C2846B21A69B48007A12E6 /* UILabel+Spotlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2845C21A69B48007A12E6 /* UILabel+Spotlight.m */; };
 		12C2846E21A69CCE007A12E6 /* SpotlightOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2846D21A69CCE007A12E6 /* SpotlightOption.m */; };
+		12C2847121A6B188007A12E6 /* LabelSpotlightOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2847021A6B188007A12E6 /* LabelSpotlightOption.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,8 @@
 		12C2845C21A69B48007A12E6 /* UILabel+Spotlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Spotlight.m"; sourceTree = "<group>"; };
 		12C2846C21A69CCE007A12E6 /* SpotlightOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotlightOption.h; sourceTree = "<group>"; };
 		12C2846D21A69CCE007A12E6 /* SpotlightOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotlightOption.m; sourceTree = "<group>"; };
+		12C2846F21A6B188007A12E6 /* LabelSpotlightOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelSpotlightOption.h; sourceTree = "<group>"; };
+		12C2847021A6B188007A12E6 /* LabelSpotlightOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelSpotlightOption.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +230,8 @@
 				12C2845A21A69B48007A12E6 /* UIButton+Spotlight.m */,
 				12C2845B21A69B48007A12E6 /* UILabel+Spotlight.h */,
 				12C2845C21A69B48007A12E6 /* UILabel+Spotlight.m */,
+				12C2846F21A6B188007A12E6 /* LabelSpotlightOption.h */,
+				12C2847021A6B188007A12E6 /* LabelSpotlightOption.m */,
 				12C2846C21A69CCE007A12E6 /* SpotlightOption.h */,
 				12C2846D21A69CCE007A12E6 /* SpotlightOption.m */,
 			);
@@ -319,6 +324,7 @@
 				12C2846621A69B48007A12E6 /* PaletteTarget.m in Sources */,
 				12C283E321A695DB007A12E6 /* AppDelegate.m in Sources */,
 				12C2846021A69B48007A12E6 /* UIView+snapshot.m in Sources */,
+				12C2847121A6B188007A12E6 /* LabelSpotlightOption.m in Sources */,
 				12C2846521A69B48007A12E6 /* PaletteSwatch.m in Sources */,
 				12C2846A21A69B48007A12E6 /* UIButton+Spotlight.m in Sources */,
 				12C2846921A69B48007A12E6 /* ButtonSpotlightOption.m in Sources */,

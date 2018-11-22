@@ -7,14 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SpotlightOption.h"
+#import "LabelSpotlightOption.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UILabel (Spotlight)
 
--(void)lightingWithOption:(SpotlightOption*)option backgroundView:(UIView*)view;
--(void)lightingWithOption:(SpotlightOption*)option backgroundColor:(UIColor*)color;
+@property (nonatomic, strong,readonly) UIView* enhancedBackgroundView;
+
+
+-(void)lightingWithOption:(LabelSpotlightOption*)option backgroundView:(UIView*)view;
+-(void)lightingWithOption:(LabelSpotlightOption*)option backgroundColor:(UIColor*)color;
 
 @end
 
