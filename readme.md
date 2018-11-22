@@ -18,7 +18,14 @@
 
 	这里使用了过去在项目中用过的一个分类 UIImage+Extension。
 
-最终为 UIButton 和 UILabel 封装了两个分类 Spotlight，你只需在UIButton/UILabel 上调用分类的 lightingWithOption: backgroundView 方法即可。比如：
+## 用法
+
+最终为 UIButton 和 UILabel 封装了两个分类 Spotlight，你只需在UIButton/UILabel 上调用分类的 lightingWithOption: backgroundView :方法即可。比如：
+
+
+### UIButton+Spotlight
+
+分类方法 lightingWithOption: backgroundView: 方法的第一个参数是 ButtonSpotlightOption 对象（继承 SpotlightOption 类）。通过这个参数允许你指定一些选项，不同的选项会导致不同的效果。
 
 ```
 ButtonSpotlightOption* option = [ButtonSpotlightOption new];
@@ -26,11 +33,35 @@ option.lightingText = YES;// 默认 NO
 [self.btBack lightingWithOption:option backgroundView:self.ivPhotoPreview];
         
 ```
+
 这样，按钮的颜色就会自动适配随背景 view 的主色。看效果：
 
 <img src="1.png" width="300"/>
 
 <img src="2.png" width="300"/>
+
+### UILabel+Spotlight
+
+和 UIButton+Spotlight 分类一样，这个分类同样有一个lightingWithOption: backgroundView: 方法，只不过它的第一个参数变成了 LabelSpotlightOption 对象（同样继承了 SpotlightOption 类）。这个选项允许配置一些针对 UILabel 的特殊效果，比如在文字的下方增加一个半透明的背景图层，用于增强背景的显示。比如：
+
+```
+// 在 label 下增加一层颜色背景
+opt.enhancedBackgroundRect = r; // 背景所在的位置大小
+opt.enhancedBackgroundAlpha = 0.5; // 背景颜色透明度
+opt.blendEnhancedBackground = YES;// 是否融合背景主题色，默认 NO
+```
+
+其中 blendEnhancedBackground 选项设置为 YES 会使用背景图片主题色作为增强背景图层的颜色，如下图所示：
+
+<img src="3.png" width="300"/>
+
+<img src="4.png" width="300"/>
+
+如果 blendEnhancedBackground 为 NO（默认），则会根据不同情况分别使用黑色和白色作为增强背景图层的颜色，如下图所示：
+
+<img src="5.png" width="300"/>
+
+<img src="6.png" width="300"/>
 
 ## 安装
 
