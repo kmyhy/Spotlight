@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12C283E321A695DB007A12E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C283E221A695DB007A12E6 /* AppDelegate.m */; };
+		12C283EB21A695DD007A12E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C283EA21A695DD007A12E6 /* Assets.xcassets */; };
+		12C283EE21A695DD007A12E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C283EC21A695DD007A12E6 /* LaunchScreen.storyboard */; };
+		12C283F121A695DD007A12E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C283F021A695DD007A12E6 /* main.m */; };
+		12C283FA21A69608007A12E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C283F721A69608007A12E6 /* Main.storyboard */; };
+		12C283FB21A69608007A12E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C283F921A69608007A12E6 /* ViewController.m */; };
+		12C2845D21A69B48007A12E6 /* UIColor+Complementary.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2843821A69B48007A12E6 /* UIColor+Complementary.m */; };
+		12C2845E21A69B48007A12E6 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2843A21A69B48007A12E6 /* UIColor+Hex.m */; };
+		12C2845F21A69B48007A12E6 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2843D21A69B48007A12E6 /* UIImage+Extension.m */; };
+		12C2846021A69B48007A12E6 /* UIView+snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2844021A69B48007A12E6 /* UIView+snapshot.m */; };
+		12C2846121A69B48007A12E6 /* UIViewController+Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2844321A69B48007A12E6 /* UIViewController+Camera.m */; };
+		12C2846221A69B48007A12E6 /* PaletteColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2844921A69B48007A12E6 /* PaletteColorModel.m */; };
+		12C2846321A69B48007A12E6 /* Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2844B21A69B48007A12E6 /* Palette.m */; };
+		12C2846421A69B48007A12E6 /* PaletteColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2844D21A69B48007A12E6 /* PaletteColorUtils.m */; };
+		12C2846521A69B48007A12E6 /* PaletteSwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2844F21A69B48007A12E6 /* PaletteSwatch.m */; };
+		12C2846621A69B48007A12E6 /* PaletteTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2845121A69B48007A12E6 /* PaletteTarget.m */; };
+		12C2846721A69B48007A12E6 /* PriorityBoxArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2845321A69B48007A12E6 /* PriorityBoxArray.m */; };
+		12C2846821A69B48007A12E6 /* UIImage+Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2845521A69B48007A12E6 /* UIImage+Palette.m */; };
+		12C2846921A69B48007A12E6 /* ButtonSpotlightOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2845821A69B48007A12E6 /* ButtonSpotlightOption.m */; };
+		12C2846A21A69B48007A12E6 /* UIButton+Spotlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2845A21A69B48007A12E6 /* UIButton+Spotlight.m */; };
+		12C2846B21A69B48007A12E6 /* UILabel+Spotlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2845C21A69B48007A12E6 /* UILabel+Spotlight.m */; };
+		12C2846E21A69CCE007A12E6 /* SpotlightOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C2846D21A69CCE007A12E6 /* SpotlightOption.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12C283DE21A695DB007A12E6 /* Spotlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C283E121A695DB007A12E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12C283E221A695DB007A12E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12C283EA21A695DD007A12E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12C283ED21A695DD007A12E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12C283EF21A695DD007A12E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C283F021A695DD007A12E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12C283F721A69608007A12E6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		12C283F821A69608007A12E6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12C283F921A69608007A12E6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12C2843721A69B48007A12E6 /* UIColor+Complementary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Complementary.h"; sourceTree = "<group>"; };
+		12C2843821A69B48007A12E6 /* UIColor+Complementary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Complementary.m"; sourceTree = "<group>"; };
+		12C2843921A69B48007A12E6 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		12C2843A21A69B48007A12E6 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		12C2843C21A69B48007A12E6 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		12C2843D21A69B48007A12E6 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		12C2843F21A69B48007A12E6 /* UIView+snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+snapshot.h"; sourceTree = "<group>"; };
+		12C2844021A69B48007A12E6 /* UIView+snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+snapshot.m"; sourceTree = "<group>"; };
+		12C2844221A69B48007A12E6 /* UIViewController+Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Camera.h"; sourceTree = "<group>"; };
+		12C2844321A69B48007A12E6 /* UIViewController+Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Camera.m"; sourceTree = "<group>"; };
+		12C2844521A69B48007A12E6 /* iOSPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSPalette.h; sourceTree = "<group>"; };
+		12C2844821A69B48007A12E6 /* PaletteColorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteColorModel.h; sourceTree = "<group>"; };
+		12C2844921A69B48007A12E6 /* PaletteColorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteColorModel.m; sourceTree = "<group>"; };
+		12C2844A21A69B48007A12E6 /* Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palette.h; sourceTree = "<group>"; };
+		12C2844B21A69B48007A12E6 /* Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Palette.m; sourceTree = "<group>"; };
+		12C2844C21A69B48007A12E6 /* PaletteColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteColorUtils.h; sourceTree = "<group>"; };
+		12C2844D21A69B48007A12E6 /* PaletteColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteColorUtils.m; sourceTree = "<group>"; };
+		12C2844E21A69B48007A12E6 /* PaletteSwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteSwatch.h; sourceTree = "<group>"; };
+		12C2844F21A69B48007A12E6 /* PaletteSwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteSwatch.m; sourceTree = "<group>"; };
+		12C2845021A69B48007A12E6 /* PaletteTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteTarget.h; sourceTree = "<group>"; };
+		12C2845121A69B48007A12E6 /* PaletteTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteTarget.m; sourceTree = "<group>"; };
+		12C2845221A69B48007A12E6 /* PriorityBoxArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityBoxArray.h; sourceTree = "<group>"; };
+		12C2845321A69B48007A12E6 /* PriorityBoxArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriorityBoxArray.m; sourceTree = "<group>"; };
+		12C2845421A69B48007A12E6 /* UIImage+Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Palette.h"; sourceTree = "<group>"; };
+		12C2845521A69B48007A12E6 /* UIImage+Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Palette.m"; sourceTree = "<group>"; };
+		12C2845721A69B48007A12E6 /* ButtonSpotlightOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonSpotlightOption.h; sourceTree = "<group>"; };
+		12C2845821A69B48007A12E6 /* ButtonSpotlightOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonSpotlightOption.m; sourceTree = "<group>"; };
+		12C2845921A69B48007A12E6 /* UIButton+Spotlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Spotlight.h"; sourceTree = "<group>"; };
+		12C2845A21A69B48007A12E6 /* UIButton+Spotlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Spotlight.m"; sourceTree = "<group>"; };
+		12C2845B21A69B48007A12E6 /* UILabel+Spotlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Spotlight.h"; sourceTree = "<group>"; };
+		12C2845C21A69B48007A12E6 /* UILabel+Spotlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Spotlight.m"; sourceTree = "<group>"; };
+		12C2846C21A69CCE007A12E6 /* SpotlightOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotlightOption.h; sourceTree = "<group>"; };
+		12C2846D21A69CCE007A12E6 /* SpotlightOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotlightOption.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12C283DB21A695DB007A12E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C283D521A695DB007A12E6 = {
+			isa = PBXGroup;
+			children = (
+				12C2843421A69B48007A12E6 /* Spotlight */,
+				12C283E021A695DB007A12E6 /* Demo */,
+				12C283DF21A695DB007A12E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12C283DF21A695DB007A12E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12C283DE21A695DB007A12E6 /* Spotlight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12C283E021A695DB007A12E6 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				12C283E121A695DB007A12E6 /* AppDelegate.h */,
+				12C283E221A695DB007A12E6 /* AppDelegate.m */,
+				12C283F721A69608007A12E6 /* Main.storyboard */,
+				12C283F821A69608007A12E6 /* ViewController.h */,
+				12C283F921A69608007A12E6 /* ViewController.m */,
+				12C283EA21A695DD007A12E6 /* Assets.xcassets */,
+				12C283EC21A695DD007A12E6 /* LaunchScreen.storyboard */,
+				12C283EF21A695DD007A12E6 /* Info.plist */,
+				12C283F021A695DD007A12E6 /* main.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		12C2843421A69B48007A12E6 /* Spotlight */ = {
+			isa = PBXGroup;
+			children = (
+				12C2843521A69B48007A12E6 /* Category */,
+				12C2844421A69B48007A12E6 /* iOSPalette */,
+				12C2845621A69B48007A12E6 /* Spotlight */,
+			);
+			path = Spotlight;
+			sourceTree = "<group>";
+		};
+		12C2843521A69B48007A12E6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				12C2843621A69B48007A12E6 /* UIColor */,
+				12C2843B21A69B48007A12E6 /* UIImage */,
+				12C2843E21A69B48007A12E6 /* UIView */,
+				12C2844121A69B48007A12E6 /* UIViewController */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		12C2843621A69B48007A12E6 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				12C2843721A69B48007A12E6 /* UIColor+Complementary.h */,
+				12C2843821A69B48007A12E6 /* UIColor+Complementary.m */,
+				12C2843921A69B48007A12E6 /* UIColor+Hex.h */,
+				12C2843A21A69B48007A12E6 /* UIColor+Hex.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		12C2843B21A69B48007A12E6 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				12C2843C21A69B48007A12E6 /* UIImage+Extension.h */,
+				12C2843D21A69B48007A12E6 /* UIImage+Extension.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		12C2843E21A69B48007A12E6 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				12C2843F21A69B48007A12E6 /* UIView+snapshot.h */,
+				12C2844021A69B48007A12E6 /* UIView+snapshot.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		12C2844121A69B48007A12E6 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				12C2844221A69B48007A12E6 /* UIViewController+Camera.h */,
+				12C2844321A69B48007A12E6 /* UIViewController+Camera.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		12C2844421A69B48007A12E6 /* iOSPalette */ = {
+			isa = PBXGroup;
+			children = (
+				12C2844521A69B48007A12E6 /* iOSPalette.h */,
+				12C2844621A69B48007A12E6 /* Source */,
+			);
+			path = iOSPalette;
+			sourceTree = "<group>";
+		};
+		12C2844621A69B48007A12E6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				12C2844721A69B48007A12E6 /* Model */,
+				12C2844A21A69B48007A12E6 /* Palette.h */,
+				12C2844B21A69B48007A12E6 /* Palette.m */,
+				12C2844C21A69B48007A12E6 /* PaletteColorUtils.h */,
+				12C2844D21A69B48007A12E6 /* PaletteColorUtils.m */,
+				12C2844E21A69B48007A12E6 /* PaletteSwatch.h */,
+				12C2844F21A69B48007A12E6 /* PaletteSwatch.m */,
+				12C2845021A69B48007A12E6 /* PaletteTarget.h */,
+				12C2845121A69B48007A12E6 /* PaletteTarget.m */,
+				12C2845221A69B48007A12E6 /* PriorityBoxArray.h */,
+				12C2845321A69B48007A12E6 /* PriorityBoxArray.m */,
+				12C2845421A69B48007A12E6 /* UIImage+Palette.h */,
+				12C2845521A69B48007A12E6 /* UIImage+Palette.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		12C2844721A69B48007A12E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12C2844821A69B48007A12E6 /* PaletteColorModel.h */,
+				12C2844921A69B48007A12E6 /* PaletteColorModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12C2845621A69B48007A12E6 /* Spotlight */ = {
+			isa = PBXGroup;
+			children = (
+				12C2845721A69B48007A12E6 /* ButtonSpotlightOption.h */,
+				12C2845821A69B48007A12E6 /* ButtonSpotlightOption.m */,
+				12C2845921A69B48007A12E6 /* UIButton+Spotlight.h */,
+				12C2845A21A69B48007A12E6 /* UIButton+Spotlight.m */,
+				12C2845B21A69B48007A12E6 /* UILabel+Spotlight.h */,
+				12C2845C21A69B48007A12E6 /* UILabel+Spotlight.m */,
+				12C2846C21A69CCE007A12E6 /* SpotlightOption.h */,
+				12C2846D21A69CCE007A12E6 /* SpotlightOption.m */,
+			);
+			path = Spotlight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12C283DD21A695DB007A12E6 /* Spotlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C283F421A695DD007A12E6 /* Build configuration list for PBXNativeTarget "Spotlight" */;
+			buildPhases = (
+				12C283DA21A695DB007A12E6 /* Sources */,
+				12C283DB21A695DB007A12E6 /* Frameworks */,
+				12C283DC21A695DB007A12E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spotlight;
+			productName = Hightlight;
+			productReference = 12C283DE21A695DB007A12E6 /* Spotlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12C283D621A695DB007A12E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = yhy;
+				TargetAttributes = {
+					12C283DD21A695DB007A12E6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 12C283D921A695DB007A12E6 /* Build configuration list for PBXProject "Spotlight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12C283D521A695DB007A12E6;
+			productRefGroup = 12C283DF21A695DB007A12E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12C283DD21A695DB007A12E6 /* Spotlight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12C283DC21A695DB007A12E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C283FA21A69608007A12E6 /* Main.storyboard in Resources */,
+				12C283EE21A695DD007A12E6 /* LaunchScreen.storyboard in Resources */,
+				12C283EB21A695DD007A12E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12C283DA21A695DB007A12E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C283FB21A69608007A12E6 /* ViewController.m in Sources */,
+				12C2846321A69B48007A12E6 /* Palette.m in Sources */,
+				12C2846E21A69CCE007A12E6 /* SpotlightOption.m in Sources */,
+				12C2846221A69B48007A12E6 /* PaletteColorModel.m in Sources */,
+				12C2845E21A69B48007A12E6 /* UIColor+Hex.m in Sources */,
+				12C283F121A695DD007A12E6 /* main.m in Sources */,
+				12C2846B21A69B48007A12E6 /* UILabel+Spotlight.m in Sources */,
+				12C2845F21A69B48007A12E6 /* UIImage+Extension.m in Sources */,
+				12C2846421A69B48007A12E6 /* PaletteColorUtils.m in Sources */,
+				12C2846821A69B48007A12E6 /* UIImage+Palette.m in Sources */,
+				12C2845D21A69B48007A12E6 /* UIColor+Complementary.m in Sources */,
+				12C2846121A69B48007A12E6 /* UIViewController+Camera.m in Sources */,
+				12C2846721A69B48007A12E6 /* PriorityBoxArray.m in Sources */,
+				12C2846621A69B48007A12E6 /* PaletteTarget.m in Sources */,
+				12C283E321A695DB007A12E6 /* AppDelegate.m in Sources */,
+				12C2846021A69B48007A12E6 /* UIView+snapshot.m in Sources */,
+				12C2846521A69B48007A12E6 /* PaletteSwatch.m in Sources */,
+				12C2846A21A69B48007A12E6 /* UIButton+Spotlight.m in Sources */,
+				12C2846921A69B48007A12E6 /* ButtonSpotlightOption.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12C283EC21A695DD007A12E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C283ED21A695DD007A12E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12C283F221A695DD007A12E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12C283F321A695DD007A12E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12C283F521A695DD007A12E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X27N83WRQ6;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mapout.Hightlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12C283F621A695DD007A12E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X27N83WRQ6;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mapout.Hightlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12C283D921A695DB007A12E6 /* Build configuration list for PBXProject "Spotlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C283F221A695DD007A12E6 /* Debug */,
+				12C283F321A695DD007A12E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C283F421A695DD007A12E6 /* Build configuration list for PBXNativeTarget "Spotlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C283F521A695DD007A12E6 /* Debug */,
+				12C283F621A695DD007A12E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12C283D621A695DB007A12E6 /* Project object */;
+}
